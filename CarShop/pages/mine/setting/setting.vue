@@ -1,8 +1,8 @@
 <template>
-	<view :class="['lff-content',sfPageBgClass]" :style="{fontSize: sfCurrentFont}">
-		<title-row-item ref="titleRowItemRef" :themeType="sfThemeType" v-for="(item,index) in list" :key="index"
+	<view :class="['lff-content',pageBgClass]" :style="{fontSize: getCurrentFont}">
+		<title-row-item ref="titleRowItemRef" :themeType="themeType" v-for="(item,index) in list" :key="index"
 			:title="item.title" :desp="item.desp" :extendType="item.extendType" 
-			:viewBgClass="sfBoxBgClass" :rightShow="item.arrow" @chooseClick="chooseWay" @switchChange="switchChangeWay">
+			:viewBgClass="viewBgClass" :rightShow="item.arrow" @chooseClick="chooseWay" @switchChange="switchChangeWay">
 		</title-row-item>
 	</view>
 </template>
@@ -40,6 +40,23 @@
 					}
 				]
 			};
+		},
+		computed: {
+			themeType() {
+				return this.config.getThemeType(this.isDark)
+			},
+			// 背景页面主题
+			pageBgClass() {
+				return this.config.getDarkThemePageClass(this.isDark)
+			},
+			// 视图页面主题色
+			viewBgClass() {
+				return this.config.getDarkThemeViewClass(this.isDark)
+			},
+			// 字体大小
+			getCurrentFont () {
+				return this.$store.getters.getPageFontClass
+			},
 		},
 		methods: {
 			// 点击某一列响应方法 title 为列表文字标识

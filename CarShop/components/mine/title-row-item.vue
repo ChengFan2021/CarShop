@@ -5,7 +5,7 @@
 		<view class="user-list-item lf-row-a-f" :style="{'padding-right':arrowShow ? '0rpx' : '44rpx'}">
 			<text class="user-list-item-title">{{$t(title)}}</text>
 			<u-switch style="margin-right: 20rpx;" :active-color="themeColor" v-if="extendType=== 'switch' " v-model="switchBool" @change="onSwitchChange"></u-switch>
-			<u-number-box style="margin-right: 20rpx;" color="#ffffff" :bg-color="themeColor" :min="10" :step="2" :max="40" v-model="sizeNumer" v-if="extendType=== 'numberBox' " @change="onNumberBoxChange"></u-number-box>
+			<u-number-box :disabled-input="true" style="margin-right: 20rpx;" color="#ffffff" :bg-color="themeColor" :min="10" :step="2" :max="40" v-model="sizeNumer" v-if="extendType=== 'numberBox' " @change="onNumberBoxChange"></u-number-box>
 			<view v-if="rightShow" class="user-list-item-right lf-row-a-f">
 				<text class="user-list-item-right-desp">{{desp}}</text>
 				<u-icon v-if="arrowShow" class="user-list-item-right-arrow" name="arrow-right"></u-icon>
