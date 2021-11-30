@@ -1,0 +1,1 @@
+<view class="{{['lff-content',pageBgClass]}}" style="{{'font-size:'+(getCurrentFont)+';'}}"></view>

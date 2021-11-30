@@ -1,0 +1,47 @@
+
+// 默认模式配置
+.page-bg-color{
+	background-color: #F8F9FB !important;
+}
+.box-bg-color{
+	background-color: #FFFFFF !important;
+}
+.box-line-color{
+	background-color: #F8F9FB !important;
+}
+
+// 黑暗模式 配置
+.dark-page-bg-color{
+	background-color: #000000 !important;
+}
+.dark-box-bg-color{
+	background-color: #2D2D2D !important;
+}
+.dark-box-line-color{
+	background-color: #000000 !important;
+}
+
+// 主题颜色配置
+.normal-theme-bg-color{
+	background-color: $normal-theme-color !important;
+}
+// 主题颜色配置
+.pink-theme-bg-color{
+	background-color: $pink-theme-color !important;
+}
+// 主题颜色配置
+.blue-theme-bg-color{
+	background-color: $blue-theme-color !important;
+}
+
+// 主题渐变色配置
+.normal-theme-gradient-bg-color{
+	background: linear-gradient(0deg, #FFFFFF 0%, $normal-theme-color 100%);
+}
+.pink-theme-gradient-bg-color{
+	background: linear-gradient(0deg, #FFFFFF 0%, $pink-theme-color 100%);
+}
+.blue-theme-gradient-bg-color{
+	background: linear-gradient(0deg, #FFFFFF 0%, $blue-theme-color 100%);
+}
+

@@ -1,0 +1,100 @@
+{
+	"easycom": {
+		// npm安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/main/transition/transition",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/main/guide/guide",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTextStyle": "black"
+		}
+	}, {
+		"path": "pages/main/home/home",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/main/mine/mine",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mine/language/language",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mine/about-us/aboutUs",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mine/browsing-history/browsingHistory",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mine/my-collection/myCollection",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mine/setting/setting",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/mine/theme/theme",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/main/login/login",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTextStyle": "white"
+		}
+
+	}, {
+		"path": "pages/main/forget-password/forgetPassword",
+		"style": {
+			"navigationBarTitleText":"忘记密码"
+		}
+	}],
+	"globalStyle": {
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"bounce": "none" // 取消APP端iOS回弹
+		}
+	},
+	"tabBar": {
+		"color": "#818181",
+		"list": [{
+				"pagePath": "pages/main/home/home",
+				"iconPath": "static/images/tabs/home_normal.png",
+				"selectedIconPath": "static/images/tabs/normal_home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/main/mine/mine",
+				"iconPath": "static/images/tabs/mine_normal.png",
+				"selectedIconPath": "static/images/tabs/normal_home_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

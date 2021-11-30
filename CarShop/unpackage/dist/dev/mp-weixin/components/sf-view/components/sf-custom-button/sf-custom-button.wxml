@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="{{['sf-custom-button',shapeClass,boxBgClass]}}" style="{{$root.s0}}" bindtap="__e">{{title}}</view>

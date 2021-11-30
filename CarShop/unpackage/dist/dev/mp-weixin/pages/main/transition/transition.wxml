@@ -1,0 +1,1 @@
+<view style="{{'font-size:'+(getCurrentFont)+';'}}"><image class="start-content " src="/static/images/guide/transition01.png"></image></view>

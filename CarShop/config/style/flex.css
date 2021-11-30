@@ -1,0 +1,43 @@
+/* flex布局 */
+.lf-row-f{
+	display: flex;
+	flex-direction: row;
+}
+.lf-row-a-f{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.lf-row-j-f{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.lf-row-a-j-f{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.lf-column-f{
+	display: flex;
+	flex-direction: column;
+}
+.lf-column-a-f{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.lf-column-j-f{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.lf-column-a-j-f{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

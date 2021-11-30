@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/main/transition/transition",
+    "pages/main/guide/guide",
+    "pages/main/home/home",
+    "pages/main/mine/mine",
+    "pages/mine/language/language",
+    "pages/mine/about-us/aboutUs",
+    "pages/mine/browsing-history/browsingHistory",
+    "pages/mine/my-collection/myCollection",
+    "pages/mine/setting/setting",
+    "pages/mine/theme/theme",
+    "pages/main/login/login",
+    "pages/main/forget-password/forgetPassword"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#818181",
+    "list": [
+      {
+        "pagePath": "pages/main/home/home",
+        "iconPath": "static/images/tabs/home_normal.png",
+        "selectedIconPath": "static/images/tabs/normal_home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/main/mine/mine",
+        "iconPath": "static/images/tabs/mine_normal.png",
+        "selectedIconPath": "static/images/tabs/normal_home_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "sf-custom-button": "/components/sf-view/components/sf-custom-button/sf-custom-button",
+    "sf-input": "/components/sf-view/components/sf-input/sf-input",
+    "sf-divider": "/components/sf-view/components/sf-divider/sf-divider",
+    "sf-checkbox": "/components/sf-view/components/sf-checkbox/sf-checkbox"
+  }
+}

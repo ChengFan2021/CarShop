@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  },
+  "component": true
+}
