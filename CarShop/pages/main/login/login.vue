@@ -35,7 +35,7 @@
 					<sf-input :boxBgClass="sfPageBgClass" :placeholder="$t('请输入账户')"></sf-input>
 					<sf-input :boxBgClass="sfPageBgClass" :placeholder="$t('请输入密码')"></sf-input>
 					<sf-input :boxBgClass="sfPageBgClass" :placeholder="$t('请再次输入密码')"></sf-input>
-					<sf-custom-button :title="$t('注册')" themeBgBool :customStyle="{color: '#FFFFFF',margin: '20rpx'}"
+					<sf-custom-button :title="$t('注册')" themeBgBool :customStyle="{color: '#FFFFFF',margin: '20rpx 0rpx'}"
 						@on-click="onRegister"></sf-custom-button>
 					<view class="lf-row-f login-register-tips" :style="{color: sfThemeColor}">
 						<view @click="onLoginRegisterChange(true)">{{$t('有账户，前往登录')}}</view>
