@@ -45,7 +45,7 @@
 		</view>
 		<view class="other-box lf-column-a-j-f" :style="{color: sfThemeColor}">
 			<sf-divider style="margin: 60rpx 0rpx;" bg-color="" :color="sfThemeColor" :borderColor="sfThemeColor">
-				{{otherTips}}
+				{{$t(otherTips)}}
 			</sf-divider>
 			<view class="other-login-box lf-row-a-f">
 				<view class="login-way-box lf-column-a-j-f" :class="sfBoxBgClass" v-for="item in otherLoginData"
